@@ -9,9 +9,9 @@ nGroups = 10; % number of groups
 gsize = 100; % group size for each group
 
 seed = 13;
-nodes = 10;
+nodes = 5;
 group_flag = true; % true for same grouping
-net = 3; % 1 for tree, 2 for clique, 3 for smallworld
+net = 1; % 1 for tree, 2 for clique, 3 for smallworld
 edges = 20; % # of edges in addtion to the cycle in small world
 
 [n, E, G, A, b, groups, w] = Data_Generate(nodes, gsize,...

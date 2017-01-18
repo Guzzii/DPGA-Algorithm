@@ -12,7 +12,7 @@ end
 % intializing
 arc=size(E, 1);
 
-c = 25.5156*sqrt(4/arc/min(diag(G))) * ones(nodes, 1);
+c = 2.5156*sqrt(4/arc/min(diag(G))) * ones(nodes, 1);
 
 x = cell(nodes,1);
 p = cell(nodes, 1);
